@@ -15,19 +15,19 @@
   --tittle-text-color: #757575;
   --background-color: #f5f5f5;
   --tittle-buttom-color: #2196f3;
-  --container-hero-color: #ffffff;
+  --container-white-color: #ffffff;
   --content-section-color: #2f303a;
   --section-item-color: #f5f4fa;
   --section-footer-color: rgba(255, 255, 255, 0.6);
+  --buttom-hero-color: #188ce8;
 }
 
 body {
-  background-color: var(--container-hero-color);
+  background-color: var(--container-white-color);
   font-family: Roboto, sans-serif;
   letter-spacing: 0.03em;
 }
 
-/* ---------------------------------------------Шапка сайта-------------------------------------- */
 .header-logo {
   background-color: var(--container-hero-color);
 }
@@ -44,12 +44,15 @@ body {
 .logo:focus {
   color: var(--tittle-buttom-color);
 }
+
 .logo-blue {
   color: #2196f3;
 }
+
 .list {
   list-style: none;
 }
+
 .list-nav {
   color: var(--brand-text-color);
 
@@ -58,10 +61,12 @@ body {
   line-height: 1.14;
   letter-spacing: 0.02em;
 }
+
 .list-nav:hover,
 .list-nav:focus {
   color: var(--tittle-buttom-color);
 }
+
 .site-nav .list-nav.current {
   color: var(--tittle-buttom-color);
 }
@@ -74,32 +79,50 @@ body {
   line-height: 1.14;
   letter-spacing: 0.02em;
 }
+
 .site-info:hover,
 .site-info:focus {
   color: var(--tittle-buttom-color);
 }
+
 /* ----------------------------------Компанія------------------------------ */
 /* -----------------------------------Секція 1---------------------------- */
 .hero-section {
   background-color: var(--content-section-color);
 }
+
 .container-hero {
   color: var(--container-hero-color);
 
   font-weight: 900;
   font-size: 44px;
-  line-height: 60px;
-  letter-spacing: 1.36;
+  line-height: 1.36;
+  letter-spacing: 0.06em;
 }
+
 .button-hero {
   background-color: var(--tittle-buttom-color);
   color: var(--container-hero-color);
+
   cursor: pointer;
+  font-family: Roboto, sans-serif;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.87;
+  letter-spacing: 0.06em;
 }
+
+.button-hero:hover,
+.button-hero:focus {
+  background-color: var(--buttom-hero-color);
+  color: var(--container-hero-color);
+}
+
 /* ----------------------------------Секція 2------------------------*/
 .containers {
   background-color: var(--background-color);
 }
+
 .info-containers {
   color: var(--brand-text-color);
 
@@ -107,6 +130,7 @@ body {
   font-size: 14px;
   line-height: 1.14;
 }
+
 .info-business {
   color: var(--tittle-text-color);
 
@@ -114,6 +138,7 @@ body {
   font-size: 14px;
   line-height: 1.71;
 }
+
 .project-item {
   color: var(--brand-text-color);
 
@@ -121,10 +146,12 @@ body {
   font-size: 36px;
   line-height: 1.16;
 }
+
 /* -------------------------Секція 3 ----------------------------*/
 .item-section {
   background-color: var(--section-item-color);
 }
+
 .item-container {
   color: var(--brand-text-color);
 
@@ -132,6 +159,7 @@ body {
   font-size: 36px;
   line-height: 1.16;
 }
+
 .item-web {
   color: var(--brand-text-color);
 
@@ -139,6 +167,7 @@ body {
   font-size: 16px;
   line-height: 1.18;
 }
+
 .item-profesional {
   color: var(--tittle-text-color);
 
@@ -146,6 +175,7 @@ body {
   font-size: 16px;
   line-height: 1.18;
 }
+
 /* -----------------------Футер------------------------------- */
 .site-adr {
   background-color: var(--content-section-color);
@@ -159,13 +189,16 @@ body {
   font-size: 26px;
   line-height: 1.2;
 }
+
 .adr-site:hover,
 .adr-site:focus {
   color: var(--tittle-buttom-color);
 }
+
 .adr-blue {
   color: var(--tittle-buttom-color);
 }
+
 .adr-street {
   color: var(--container-hero-color);
 
@@ -173,6 +206,7 @@ body {
   font-size: 14px;
   line-height: 1.71;
 }
+
 .site-mail {
   color: var(--section-footer-color);
 
@@ -180,10 +214,12 @@ body {
   font-size: 14px;
   line-height: 1.71;
 }
+
 .site-mail:hover,
 .site-mail:focus {
   color: var(--tittle-buttom-color);
 }
+
 .site-tel {
   color: var(--section-footer-color);
 
@@ -191,14 +227,17 @@ body {
   font-size: 14px;
   line-height: 1.71;
 }
+
 .site-tel:hover,
 .site-tel:focus {
   color: var(--tittle-buttom-color);
 }
+
 /* ----------------------------Портфоліо-------------------------- */
 .main-sections {
   background-color: var(--background-color);
 }
+
 .buttons {
   color: var(--brand-text-color);
 
@@ -208,6 +247,7 @@ body {
 
   cursor: pointer;
 }
+
 .buttons:hover,
 .buttons:focus {
   background-color: var(--tittle-buttom-color);
