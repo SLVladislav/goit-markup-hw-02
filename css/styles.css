@@ -191,10 +191,11 @@ body {
 /* -----------------------Футер------------------------------- */
 .site-adr {
   background-color: var(--content-section-color);
+  font-style: normal;
 
 }
 
-.adr-footer {
+.footer-adr {
   font-style: normal;
 }
 
