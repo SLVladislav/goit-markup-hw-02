@@ -258,10 +258,6 @@ body {
 }
 
 /* ----------------------------Портфоліо-------------------------- */
-.main-sections {
-  background-color: var(--background-color);
-}
-
 .buttons {
   color: var(--brand-text-color);
   font-family: inherit;
@@ -276,4 +272,22 @@ body {
 .buttons:focus {
   background-color: var(--tittle-buttom-color);
   color: var(--container-hero-color);
+}
+
+/* -------Проекти---- */
+.projects-portfolio {
+  color: var(--brand-text-color);
+
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+}
+
+.projects-title {
+  color: var(--tittle-text-color);
+
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.8;
 }
